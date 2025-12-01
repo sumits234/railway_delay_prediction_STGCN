@@ -1,0 +1,33 @@
+# Ignore Data Files (Too large for GitHub)
+data/raw/
+data/interim/
+data/processed/
+*.npy
+*.txt
+*.csv
+*.json
+
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Model Checkpoints (Heavy files)
+models/checkpoints/
+models/output/
+*.model
+*.pth
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+
+# IDE settings
+.vscode/
+.idea/
