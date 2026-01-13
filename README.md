@@ -39,22 +39,6 @@ This project implements a **Spatio-Temporal Graph Convolutional Network (STGCN)*
 - Forecasts future delays as a supervised regression task
 
 ---
-
-## ⚙️ Workflow / Architecture
-```txt
-Darwin HSP Logs
-     ↓
-Data Cleaning + Feature Engineering
-     ↓
-Line Graph Construction (Links as Nodes)
-     ↓
-Adjacency Matrix + Time Snapshots
-     ↓
-STGCN Training (Spatial + Temporal blocks)
-     ↓
-10-min Ahead Delay Prediction (Link-level)
-
-```txt
 ## 🛠️ Tech Stack
 * **Language:** Python 3.8+
 * **Deep Learning:** PyTorch
@@ -101,4 +85,21 @@ The model was evaluated on a held-out Test Set (10% of data).
 
 ## 👥 Contributors
 * **Sumit Adikari** (22B0615) - *IIT Bombay*
+
+
+## ⚙️ Workflow / Architecture
+```txt
+Darwin HSP Logs
+     ↓
+Data Cleaning + Feature Engineering
+     ↓
+Line Graph Construction (Links as Nodes)
+     ↓
+Adjacency Matrix + Time Snapshots
+     ↓
+STGCN Training (Spatial + Temporal blocks)
+     ↓
+10-min Ahead Delay Prediction (Link-level)
+
+
 
